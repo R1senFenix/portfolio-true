@@ -7,7 +7,7 @@ function Contact() {
                 <h2>About Me</h2>
             </div>
             <div class="d-inline-flex conBorder row col">
-                <form style="min-width:100%">
+                <form style={{ minWidth: '100%' }}>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name:</label>
                         <input
@@ -32,18 +32,18 @@ function Contact() {
                             class="form-control"
                             id="Textarea"
                             rows="7"
-                            style="min-width: 100%"
+                            style={{ minWidth: '100%' }}
                         ></textarea>
                     </div>
                     <br />
                     <div class="form-group">
                         <button type="button" class="btn btn-outline-secondary">
                             Submit
-            </button>
+                        </button>
                     </div>
                 </form>
             </div>
-        </div>
+        </div >
     );
 }
 
