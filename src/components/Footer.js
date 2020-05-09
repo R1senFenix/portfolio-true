@@ -1,4 +1,6 @@
-function Card() {
+import React from "react";
+
+function Footer() {
     return (
         <footer class="fixed-bottom">
             FenixTech
@@ -6,4 +8,4 @@ function Card() {
     );
 }
 
-export default Card;
+export default Footer;
