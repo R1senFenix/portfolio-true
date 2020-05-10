@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer class="fixed-bottom">
+        <footer className="fixed-bottom">
             FenixTech
         </footer>
     );

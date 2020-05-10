@@ -2,42 +2,42 @@ import React from "react";
 
 function Contact() {
     return (
-        <div class="container-sm content">
-            <div class="row">
+        <div className="container-sm content">
+            <div className="row">
                 <h2>About Me</h2>
             </div>
-            <div class="d-inline-flex conBorder row col">
+            <div className="d-inline-flex conBorder row col">
                 <form style={{ minWidth: '100%' }}>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="exampleFormControlInput1">Name:</label>
                         <input
                             type="name"
-                            class="form-control col"
+                            className="form-control col"
                             placeholder="First Last"
                         />
                     </div>
                     <br />
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="exampleFormControlInput1">Email:</label>
                         <input
                             type="email"
-                            class="form-control"
+                            className="form-control"
                             placeholder="name@example.com"
                         />
                     </div>
                     <br />
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="exampleFormControlTextarea1">Message:</label><br />
                         <textarea
-                            class="form-control"
+                            className="form-control"
                             id="Textarea"
                             rows="7"
                             style={{ minWidth: '100%' }}
                         ></textarea>
                     </div>
                     <br />
-                    <div class="form-group">
-                        <button type="button" class="btn btn-outline-secondary">
+                    <div className="form-group">
+                        <button type="button" className="btn btn-outline-secondary">
                             Submit
                         </button>
                     </div>

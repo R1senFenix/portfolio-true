@@ -1,17 +1,14 @@
 import React from "react";
+import profPic from "./fenix.jpg";
 
 function Card() {
     return (
-        <div class="row">
+        <div className="row">
             <h2>About Me</h2>
 
-            <div class="d-inline-flex">
-                <p class="conBorder">
-                    <img
-                        id="profPic"
-                        class="float-left"
-                        src="assets/images/fenix.jpg"
-                    />
+            <div className="d-inline-flex">
+                <p className="conBorder">
+                    <img id="profPic" className="float-left" src={profPic} />
             &nbsp;&nbsp;I am first and foremost a believer in God and I strive
             to live my life based upon His Holy Word. I wish to grow every day,
             learning from those who have paved the ways before me so that I may
@@ -30,9 +27,9 @@ function Card() {
                 </p>
             </div>
             <br />
-            <table class="table table-sm">
+            <table className="table table-sm">
                 <tr>
-                    <thead colspan="2" class="thead-dark font-weight-bold">
+                    <thead colspan="2" className="thead-dark font-weight-bold">
                         Links
             </thead>
                 </tr>
