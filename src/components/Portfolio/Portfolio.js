@@ -1,19 +1,19 @@
 import React from "react";
+import PortCard from "./PortCard"
+import portList from "./portList";
 
-function Card() {
+function Portfolio() {
     return (
-        <div className="card">
-            <div className="card-body">
-                <p className="card-text">
-                    Aliquip dolore commodo nostrud minim. Cillum do enim non ullamco. Commodo magna eu ex
-                    mollit sunt amet fugiat. In irure eu enim id ea sit nostrud incididunt ad
-                    adipisicing.Aliquip dolore commodo nostrud minim. Cillum do enim non ullamco. Commodo
-                    magna eu ex mollit sunt amet fugiat. In irure eu enim id ea sit nostrud incididunt ad
-                    adipisicing.
-          </p>
+        <div class="container-sm content">
+            <div class="row">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="d-inline-flex conBorder row">
+                <PortCard portList={portList} />
             </div>
         </div>
+
     );
 }
 
-export default Card;
+export default Portfolio;

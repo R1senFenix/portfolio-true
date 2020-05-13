@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
@@ -15,9 +16,11 @@ function NavBar() {
                 className="col-sm-4 d-inline-flex justify-content-end"
                 stlye="color: gray"
             >
-                <a className="nav-link nav-color" href="index.html">About</a>
-                <a className="nav-link nav-color" href="portfolio.html">Portfolio</a>
-                <a className="nav-link nav-color active" href="contact.html">Contact</a>
+                <div>
+                    <NavLink className="nav-link nav-color" activeClassName="active" to="/home">Home</NavLink>
+                    <NavLink className="nav-link nav-color" activeClassName="active" to="/contact">Contact</NavLink>
+                    <NavLink className="nav-link nav-color" activeClassName="active" to="/portfolio">Portfolio</NavLink>
+                </div>
             </nav>
         </header>
     );

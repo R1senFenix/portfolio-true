@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="container-sm content">
             <div className="row">
-                <h2>About Me</h2>
+                <h2>Contact Me</h2>
             </div>
             <div className="d-inline-flex conBorder row col">
                 <form style={{ minWidth: '100%' }}>
