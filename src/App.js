@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Index from './components/index/Index';
 import Contact from './components/contact/Contact';
-import Portfolio from './components/portfolio/Portfolio';
+import Portfolio from './components/folio/Portfolio';
 import Footer from './components/common/Footer'
 import './App.css';
 
