@@ -4,7 +4,7 @@ const portList = [
         "title": "Pirate Nations",
         "hyperlink": "https://github.com/R1senFenix/PirateNations",
         "githubRepo": "https://r1senfenix.github.io/PirateNations",
-        "image": "./src/porfolio/images/jollyRoger.png",
+        "image": "./images/jollyRoger.png",
         "text": "Sail away, raise a fleet, and grow your notariety."
     },
     {
@@ -12,7 +12,7 @@ const portList = [
         "title": "Myriad Worlds",
         "hyperlink": "https://github.com/R1senFenix/MyriadWorlds",
         "githubRepo": "https://r1senfenix.github.io/MyriadWorlds",
-        "image": "./src/porfolio/images/worlds.jfif",
+        "image": "./images/worlds.jfif",
         "text": "Adventure into the great unknown with your friends."
     },
     {
@@ -20,7 +20,7 @@ const portList = [
         "title": "Sllik|Skills",
         "hyperlink": "https://brakluner.github.io/SkillLearningApp/",
         "githubRepo": "https://brakluner.github.io/SkillLearningApp",
-        "image": "./src/porfolio/images/SllikSkillsScreen.png",
+        "image": "./images/SllikSkillsScreen.png",
         "text": "The first group project from class."
     },
     {
@@ -28,7 +28,7 @@ const portList = [
         "title": "Password Generator",
         "hyperlink": "https://github.com/R1senFenix/PasswordGenerator",
         "githubRepo": "https://r1senfenix.github.io/PasswordGenerator",
-        "image": "./src/porfolio/images/PassGenScreen.png",
+        "image": "./images/PassGenScreen.png",
         "text": "Password Project for Class."
     },
     {
@@ -36,7 +36,7 @@ const portList = [
         "title": "Coding Quiz",
         "hyperlink": "https://github.com/R1senFenix/CodeQuiz",
         "githubRepo": "https://r1senfenix.github.io/CodeQuiz",
-        "image": "./src/porfolio/images/CodeQuizScreen.png",
+        "image": "./images/CodeQuizScreen.png",
         "text": "Coding Quiz from Class."
     },
     {

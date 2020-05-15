@@ -1,23 +1,24 @@
 import React from "react";
 
+
 const PortIteration = ({ portList }) => {
     var folioList = [];
     if (portList) {
         folioList = portList.map(folio => {
 
 
-            return <div class="card col-md-4">
-                <div class="card-body">
+            return <div className="card col-md-4">
+                <div className="card-body">
                     <a href={folio.hyperlink}>
                         <img
-                            class="portImg justify-content-center"
+                            className="portImg justify-content-center"
                             src={folio.image}
                             alt="missing"
                         />
-                        <h5 class="card-title">{folio.title}</h5>
-                        <p class="card-text">{folio.text}</p>
+                        <h5 className="card-title">{folio.title}</h5>
+                        <p className="card-text">{folio.text}</p>
                     </a>
-                    <p class="card-text">
+                    <p className="card-text">
                         <a href={folio.githubRepo}>GitHub Repository</a>
                     </p>
                 </div>
@@ -26,7 +27,7 @@ const PortIteration = ({ portList }) => {
     };
 
     return (
-        <div class="d-inline-flex conBorder row">
+        <div className="d-inline-flex conBorder row">
             {folioList}
         </div>
     );
